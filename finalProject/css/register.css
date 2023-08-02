@@ -1,0 +1,50 @@
+* {box-sizing: border-box}
+
+body {
+  padding: 10px;
+  background-color: rgb(253, 253, 253);
+}
+
+
+input[type=email], input[type=password] {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0 10px 0;
+  border: none;
+  display: inline-block;
+  background: rgb(234, 233, 233);
+}
+
+input[type=email]:focus, input[type=password]:focus {
+  background-color: whitesmoke;
+  outline: none;
+}
+
+hr {
+  border: 1px solid wheat;
+  margin-bottom: 25px;
+}
+
+.registerbtn {
+  background-color: rgb(92, 92, 223);
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity:1;
+}
+
+a {
+  color: dodgerblue;
+}
+
+.signin {
+  background-color: whitesmoke;
+  text-align: center;
+}
